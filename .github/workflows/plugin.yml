@@ -50,8 +50,8 @@ jobs:
 
       - name: Compile plugin
         run: |
-          cmake . --preset MP-Release -DPROJECT_VERSION="${{ env.PROJECT_VERSION }}"
-          cmake --build --preset MP-Release
+          cmake . --preset G1-Release -DPROJECT_VERSION="${{ env.PROJECT_VERSION }}"
+          cmake --build --preset G1-Release
 
       - name: Find plugin
         run: |
