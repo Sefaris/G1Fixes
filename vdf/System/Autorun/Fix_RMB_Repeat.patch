@@ -1,0 +1,5 @@
+#engine [G1]
+	#patch [Fix_RMB_Repeat]
+		HEX @0x006FBAEE = 'B8'
+	#/patch
+#/engine
